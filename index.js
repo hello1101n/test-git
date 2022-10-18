@@ -1,6 +1,5 @@
-function testFunction(a, b) {
-    return a + b;
+function anotherVersionOfTestFunction(a, b) {
+    alert(a + b)
 }
 
-
-testFunction(1, 2)
+anotherVersionOfTestFunction(1, 2)
