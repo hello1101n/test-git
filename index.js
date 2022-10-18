@@ -1,5 +1,8 @@
-function anotherVersionOfTestFunction(a, b) {
+function notAFunctionTrustMe(a, b) {
     alert(a + b)
+    console.log('hello')
+    return b - a;
 }
 
-anotherVersionOfTestFunction(1, 2)
+
+notAFunctionTrustMe(1, 2)
