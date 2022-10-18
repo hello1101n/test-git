@@ -1,8 +1,15 @@
-function notAFunctionTrustMe(a, b) {
-    alert(a + b)
-    console.log('hello')
-    return b - a;
+function test(a, b) {
+    return a - b;
 }
 
 
-notAFunctionTrustMe(1, 2)
+test(1, 2)
+
+console.log(2)
+console.log(2)
+console.log(2)
+console.log(2)
+console.log(2)
+console.log(2)
+console.log(2)
+console.log(2)
