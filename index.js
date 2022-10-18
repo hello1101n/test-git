@@ -1,6 +1,7 @@
-function testFunction(a, b) {
-    return a + b;
+function notAFunctionTrustMe(a, b) {
+    console.log('hello')
+    return b - a;
 }
 
 
-testFunction(1, 2)
+notAFunctionTrustMe(1, 2)
